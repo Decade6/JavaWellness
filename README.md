@@ -56,6 +56,7 @@ and exercise done on a specific day
  Challenges, changes in the plan and scope of the project and things that went wrong during this increment
  Please describe here in detail:
  
+ 
  The scope of the project in general ended up being more ambitious than initially thought, however the
  fundamental ideas for the project were able to be realized.
  
