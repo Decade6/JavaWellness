@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:background="@drawable/dialog_bg"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/FTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/FCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calories" />
+
+    <TextView
+        android:id="@+id/FIngredents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients" />
+
+    <TextView
+        android:id="@+id/FCarbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carbs" />
+
+    <TextView
+        android:id="@+id/FSummary"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Summary" />
+
+</LinearLayout>

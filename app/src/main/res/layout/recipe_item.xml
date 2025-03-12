@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recipes_titleR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="food_title"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/caloriesTextR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calories:" />
+
+    <TextView
+        android:id="@+id/ingrediantsTextR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrediants:" />
+
+    <TextView
+        android:id="@+id/carbsTextR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carbs:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/AddCalories"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#B94C58"
+            android:text="Add to Calories" />
+
+        <Button
+            android:id="@+id/FAdditional"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#B94C58"
+            android:text="Add Ingredients" />
+
+        <Button
+            android:id="@+id/additionalinfoR"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#B94C58"
+            android:text="See Additional Info" />
+    </LinearLayout>
+
+</LinearLayout>

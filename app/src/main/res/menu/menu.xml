@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/food"
+        android:icon="@drawable/burger"
+        android:title="Food" />
+    <item
+        android:id="@+id/recipes"
+        android:icon="@drawable/basket"
+        android:title="Recipes"
+        android:visible="true" />
+    <item
+        android:id="@id/fitness"
+        android:icon="@drawable/exercise"
+        android:title="Fitness" />
+    <item
+        android:id="@id/settings"
+        android:icon="@drawable/user"
+        android:title="Profile" />
+    <item
+        android:id="@id/shopping_list"
+        android:icon="@drawable/shopping_list"
+        android:title="Shopping List" />
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="read_permission">com.example.myapplication.ExerciseProvider.permission.READ_PERMISSION</string>
+    <string name="write_permission">com.example.myapplication.ExerciseProvider.permission.WRITE_PERMISSION</string>
+</resources>

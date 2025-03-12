@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--
+    https://guides.codepath.com/android/Basic-Todo-App-Tutorial
+    above link was used just to get the formatting for now, will be changed
+    in the final product
+    -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lvItems"
+        android:layout_width="match_parent"
+        android:layout_height="458dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginLeft="0dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/clearAll"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:backgroundTint="#FFFFFF"
+            app:srcCompat="@drawable/clearall" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addShopItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            app:backgroundTint="#FFFFFF"
+            app:borderWidth="0.5dp"
+            app:fabSize="auto"
+            app:srcCompat="@drawable/listadd" />
+    </LinearLayout>
+
+</LinearLayout>
